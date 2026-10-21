@@ -1,0 +1,128 @@
+version: 2
+
+models:
+  - name: stg_marcas
+    description: Marcas (produtos) vendidas às escolas. Uma linha por marca.
+    columns:
+      - name: id_marca
+        description: Identificador da marca.
+        data_tests: [unique, not_null]
+      - name: segmento
+        description: Linha de produto da marca.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [sistema_ensino, plataforma_digital, bilingue, gestao]
+
+  - name: stg_escolas
+    description: Escolas parceiras, com UF e status padronizados. Uma linha por escola.
+    columns:
+      - name: cod_escola
+        description: Código da escola no sistema comercial.
+        data_tests: [unique, not_null]
+      - name: uf
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('uf_regiao')
+                field: uf
+      - name: porte
+        description: P (até 299 alunos), M (300 a 899) ou G (900 ou mais).
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [P, M, G]
+      - name: status_escola
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [ativa, inativa]
+
+  - name: stg_alunos
+    description: Alunos usuários da plataforma. Uma linha por aluno.
+    columns:
+      - name: id_aluno
+        data_tests: [unique, not_null]
+      - name: cod_escola
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_escolas')
+                field: cod_escola
+      - name: segmento_ensino
+        description: EI (Infantil), EF1, EF2 (Fundamental) ou EM (Médio).
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [EI, EF1, EF2, EM]
+      - name: eh_ativo
+        description: Verdadeiro quando o aluno está ativo no ano letivo atual.
+
+  - name: stg_contratos
+    description: Contratos com valores convertidos para decimal. Uma linha por escola, marca e ano letivo.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [cod_escola, id_marca, ano_letivo]
+    columns:
+      - name: id_contrato
+        data_tests: [unique, not_null]
+      - name: id_marca
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_marcas')
+                field: id_marca
+      - name: cod_escola
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_escolas')
+                field: cod_escola
+      - name: status_contrato
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [ativo, cancelado, encerrado]
+      - name: valor_por_aluno
+        description: Valor anual por aluno, em reais.
+        data_tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              arguments:
+                expression: "> 0"
+      - name: valor_total_contrato
+        description: Alunos contratados × valor por aluno, em reais.
+
+  - name: stg_pagamentos
+    description: Parcelas dos contratos. Uma linha por parcela.
+    columns:
+      - name: id_parcela
+        data_tests: [unique, not_null]
+      - name: id_contrato
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_contratos')
+                field: id_contrato
+      - name: dt_pagamento
+        description: Data do pagamento. Nula enquanto a parcela não foi paga.
+
+  - name: stg_eventos_plataforma
+    description: Eventos de uso da plataforma, deduplicados por id_evento.
+    columns:
+      - name: id_evento
+        data_tests: [unique, not_null]
+      - name: id_aluno
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_alunos')
+                field: id_aluno
+      - name: tipo_evento
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [login, aula_assistida, exercicio_resolvido, avaliacao_concluida]

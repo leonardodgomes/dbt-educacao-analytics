@@ -1,0 +1,45 @@
+version: 2
+
+sources:
+  - name: educacao_raw
+    description: >
+      Camada de pouso (raw). Neste projeto é carregada pelos seeds de seeds/raw;
+      em produção viria de uma ferramenta de ingestão (Auto Loader, Fivetran, Airbyte).
+    database: "{{ target.database }}"
+    schema: "{{ target.schema }}_raw"
+    tables:
+      - name: raw_marcas
+        columns:
+          - name: id_marca
+            data_tests: [unique, not_null]
+
+      - name: raw_escolas
+        columns:
+          - name: cod_escola
+            data_tests: [unique, not_null]
+
+      - name: raw_alunos
+        columns:
+          - name: id_aluno
+            data_tests: [unique, not_null]
+
+      - name: raw_contratos
+        columns:
+          - name: id_contrato
+            data_tests: [unique, not_null]
+
+      - name: raw_pagamentos
+        columns:
+          - name: id_parcela
+            data_tests: [unique, not_null]
+
+      - name: raw_eventos_plataforma
+        description: A fonte reenvia alguns eventos em cargas seguintes. A deduplicação acontece no staging.
+        columns:
+          - name: id_evento
+            data_tests:
+              - not_null
+              - unique:
+                  # Duplicidade é esperada na origem: avisa, mas não quebra o pipeline.
+                  config:
+                    severity: warn
