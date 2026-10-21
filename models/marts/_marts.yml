@@ -1,0 +1,174 @@
+version: 2
+
+models:
+  # ---------------------------------------------------------------- dimensões
+  - name: dim_data
+    description: Calendário diário de 2025 e 2026.
+    columns:
+      - name: data
+        data_tests: [unique, not_null]
+
+  - name: dim_marca
+    description: Marcas vendidas às escolas.
+    columns:
+      - name: id_marca
+        data_tests: [unique, not_null]
+
+  - name: dim_escola
+    description: Versão atual de cada escola, com UF e região. O histórico fica em snap_escolas.
+    columns:
+      - name: cod_escola
+        data_tests: [unique, not_null]
+      - name: regiao
+        data_tests: [not_null]
+
+  - name: dim_aluno
+    description: Alunos usuários da plataforma.
+    columns:
+      - name: id_aluno
+        data_tests: [unique, not_null]
+
+  # ------------------------------------------------------------------- fatos
+  - name: fct_contratos
+    description: >
+      Grão: um contrato (escola × marca × ano letivo). Traz valor contratado,
+      faturado, pago e em atraso, além dos indicadores de contrato novo e renovado.
+    columns:
+      - name: id_contrato
+        data_tests: [unique, not_null]
+      - name: cod_escola
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_escola')
+                field: cod_escola
+      - name: id_marca
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_marca')
+                field: id_marca
+      - name: valor_total_contrato
+        description: Valor anual contratado, em reais.
+      - name: valor_vencido_em_aberto
+        description: Soma das parcelas vencidas e não pagas na data de referência, em reais.
+
+  - name: fct_parcelas
+    description: "Grão: uma parcela de contrato, com status e dias de atraso."
+    columns:
+      - name: id_parcela
+        data_tests: [unique, not_null]
+      - name: id_contrato
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('fct_contratos')
+                field: id_contrato
+      - name: dt_vencimento
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_data')
+                field: data
+
+  - name: fct_engajamento_diario
+    description: >
+      Grão: um aluno em um dia com uso da plataforma. Model incremental com MERGE
+      que reprocessa os últimos dias (var dias_reprocessamento_incremental).
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [id_aluno, data_evento]
+    columns:
+      - name: sk_engajamento
+        description: Chave substituta (hash de id_aluno + data_evento).
+        data_tests: [unique, not_null]
+      - name: id_aluno
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_aluno')
+                field: id_aluno
+      - name: data_evento
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_data')
+                field: data
+
+  # --------------------------------------------------------------- entidades
+  - name: escola_360
+    description: '{{ doc("escola_360") }}'
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: cod_escola
+        data_type: string
+        constraints:
+          - type: not_null
+        data_tests: [unique]
+      - name: nome_escola
+        data_type: string
+      - name: cidade
+        data_type: string
+      - name: uf
+        data_type: string
+      - name: regiao
+        data_type: string
+      - name: porte
+        data_type: string
+      - name: dt_inicio_parceria
+        data_type: date
+      - name: situacao_parceria
+        data_type: string
+        description: renovada, nova, perdida ou sem_contrato no ano letivo atual.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [renovada, nova, perdida, sem_contrato]
+      - name: qtd_marcas_ativas
+        data_type: int
+      - name: receita_contratada_ano_atual
+        data_type: decimal(16,2)
+        description: Valor contratado no ano letivo atual, sem contratos cancelados, em reais.
+      - name: receita_contratada_ano_anterior
+        data_type: decimal(16,2)
+      - name: variacao_receita_pct
+        data_type: decimal(9,4)
+        description: Variação da receita contratada sobre o ano anterior (0,10 = +10%).
+      - name: valor_em_atraso
+        data_type: decimal(16,2)
+      - name: pct_inadimplencia
+        data_type: decimal(9,4)
+        description: Valor vencido e não pago ÷ valor já vencido, na data de referência.
+      - name: qtd_alunos_ativos
+        data_type: int
+      - name: qtd_alunos_engajados_30d
+        data_type: int
+        description: Alunos com pelo menos um evento nos 30 dias até a data de referência.
+      - name: pct_alunos_engajados_30d
+        data_type: decimal(9,4)
+      - name: minutos_por_aluno_30d
+        data_type: decimal(10,1)
+      - name: risco_retencao
+        data_type: string
+        description: '{{ doc("risco_retencao") }}'
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [alto, medio, baixo]
+
+exposures:
+  - name: painel_saude_carteira
+    label: Painel de saúde da carteira de escolas
+    type: dashboard
+    maturity: medium
+    description: >
+      Painel usado pelas áreas comercial e de relacionamento para acompanhar
+      renovação, inadimplência e engajamento de cada escola.
+    depends_on:
+      - ref('escola_360')
+      - ref('fct_contratos')
+    owner:
+      name: Leonardo Dias Gomes

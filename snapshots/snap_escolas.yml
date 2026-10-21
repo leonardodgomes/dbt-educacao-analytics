@@ -1,0 +1,11 @@
+snapshots:
+  - name: snap_escolas
+    description: >
+      Histórico (SCD tipo 2) dos atributos da escola que mudam com o tempo.
+      Cada execução grava uma nova versão quando status, porte ou tamanho mudam.
+    relation: ref('stg_escolas')
+    config:
+      schema: snapshots
+      unique_key: cod_escola
+      strategy: check
+      check_cols: [status_escola, porte, qtd_alunos_estimada]

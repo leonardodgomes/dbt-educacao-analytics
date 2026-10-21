@@ -159,7 +159,7 @@ def main() -> None:
                     "ano_letivo": ano,
                     "qtd_alunos_contratados": max(10, int(e["qtd_alunos_estimada"] * fracao)),
                     "valor_por_aluno": round(rnd.uniform(*marca[3]), 2),
-                    "dt_assinatura": data_aleatoria(date(ano - 1, 10, 1), date(ano, 1, 20)),
+                    "dt_assinatura": data_aleatoria(date(ano - 1, 10, 1), date(ano - 1, 12, 20)),
                     "status": status,
                     "saude": e["saude"],
                 })

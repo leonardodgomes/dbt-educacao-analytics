@@ -1,301 +1,301 @@
 cod_escola,nome_escola,cidade,uf,porte,qtd_alunos_estimada,dt_inicio_parceria,status
 ESC0001,Escola Paulo Freire,Porto Alegre,RS,P,265,2021-02-11,ativa
-ESC0002,Escola Sol Nascente,Juiz de Fora,MG,M,495,2017-06-21,ATIVA
-ESC0003,Instituto Paulo Freire,Campinas,SP,P,282,2018-10-10,ATIVA
-ESC0004,Instituto Santa Maria,Petrópolis,RJ,M,402,2016-05-26,ATIVA
+ESC0002,Escola Sol Nascente,Juiz de Fora,MG,M,495,2017-06-21,Ativa
+ESC0003,Instituto Paulo Freire,Campinas,SP,P,282,2018-10-10,ativa
+ESC0004,Instituto Santa Maria,Petrópolis,RJ,M,402,2016-05-26, ATIVA 
 ESC0005,Instituto Educar,Rio de Janeiro,RJ,M,657,2015-07-07,ATIVA
-ESC0006,Centro Educacional Sol Nascente,Feira de Santana,BA,M,860,2018-12-26,ativa
-ESC0007,Escola Anísio Teixeira,Ribeirão Preto,SP,M,557,2022-03-06,ATIVA
+ESC0006,Centro Educacional Sol Nascente,Feira de Santana,BA,M,860,2018-12-26, ATIVA 
+ESC0007,Escola Anísio Teixeira,Ribeirão Preto,SP,M,557,2022-03-06,Ativa
 ESC0008,Colégio Dom Bosco,São Paulo,SP,P,240,2019-07-02,Ativa
-ESC0009,Centro Educacional Sol Nascente,Ribeirão Preto,sp,P,296,2016-07-25,Ativa
-ESC0010,Centro Educacional Caminho do Saber,Curitiba,PR,P,287,2016-07-20,ATIVA
-ESC0011,Centro Educacional Aprender Mais,São Paulo,SP,M,878,2021-09-06,INATIVA
-ESC0012,Instituto Sol Nascente,Londrina,pr,M,713,2019-11-16,ativa
-ESC0013,Escola Bom Jesus,São Paulo,SP,G,1040,2018-05-07,Ativa
-ESC0014,Escola Nossa Senhora,Juiz de Fora,MG,M,313,2021-09-19,ativa
-ESC0015,Colégio Dom Bosco,Sorocaba,SP,M,774,2015-12-17,ativa
+ESC0009,Centro Educacional Sol Nascente,Ribeirão Preto,sp,P,296,2016-07-25, ATIVA 
+ESC0010,Centro Educacional Caminho do Saber,Curitiba,PR,P,287,2016-07-20, ATIVA 
+ESC0011,Centro Educacional Aprender Mais,São Paulo,SP,M,878,2021-09-06,ATIVA
+ESC0012,Instituto Sol Nascente,Londrina,pr,M,713,2019-11-16,Ativa
+ESC0013,Escola Bom Jesus,São Paulo,SP,G,1040,2018-05-07,ativa
+ESC0014,Escola Nossa Senhora,Juiz de Fora,MG,M,313,2021-09-19, ATIVA 
+ESC0015,Colégio Dom Bosco,Sorocaba,SP,M,774,2015-12-17,Ativa
 ESC0016,Escola Vila Nova,Caruaru,PE,P,174,2021-01-17,ATIVA
-ESC0017,Instituto Santa Clara,Joinville,sc,M,688,2017-07-09, ATIVA 
+ESC0017,Instituto Santa Clara,Joinville,sc,M,688,2017-07-09,Ativa
 ESC0018,Colégio Monteiro Lobato,São Paulo,SP,M,557,2015-05-09,ativa
-ESC0019,Escola Nossa Senhora,Campinas,SP,P,233,2024-11-23, ATIVA 
-ESC0020,Escola Cecília Meireles,Belo Horizonte,MG,G,1988,2018-12-22, ATIVA 
-ESC0021,Colégio Santa Maria,Uberlândia,MG,G,955,2023-12-24,Ativa
+ESC0019,Escola Nossa Senhora,Campinas,SP,P,233,2024-11-23,Inativa
+ESC0020,Escola Cecília Meireles,Belo Horizonte,MG,G,1988,2018-12-22,ATIVA
+ESC0021,Colégio Santa Maria,Uberlândia,MG,G,955,2023-12-24,ativa
 ESC0022,Centro Educacional Anísio Teixeira,Santo André,SP,P,290,2024-10-21,Ativa
-ESC0023,Colégio Sol Nascente,Juiz de Fora,MG,G,1051,2016-01-18, ATIVA 
-ESC0024,Escola Arco-Íris,Fortaleza,CE,P,267,2015-01-09,ATIVA
-ESC0025,Centro Educacional Nossa Senhora,Ribeirão Preto,SP,M,805,2018-04-30, ATIVA 
-ESC0026,Instituto Santa Maria,São Paulo,SP,M,624,2020-08-21,Ativa
-ESC0027,Escola Monteiro Lobato,Maringá,pr,P,210,2024-08-31,ativa
-ESC0028,Colégio Aprender Mais,São Paulo,SP,M,803,2021-07-18, ATIVA 
-ESC0029,Instituto Dom Bosco,Niterói,RJ,P,248,2022-07-14, ATIVA 
-ESC0030,Escola Bom Jesus,Uberlândia,mg,M,526,2018-11-30,ativa
-ESC0031,Instituto Aprender Mais,Fortaleza,CE,M,425,2021-03-21,ativa
-ESC0032,Escola Novo Saber,Florianópolis,SC,M,527,2024-07-25,INATIVA
+ESC0023,Colégio Sol Nascente,Juiz de Fora,MG,G,1051,2016-01-18,Ativa
+ESC0024,Escola Arco-Íris,Fortaleza,CE,P,267,2015-01-09, ATIVA 
+ESC0025,Centro Educacional Nossa Senhora,Ribeirão Preto,SP,M,805,2018-04-30, INATIVA 
+ESC0026,Instituto Santa Maria,São Paulo,SP,M,624,2020-08-21, ATIVA 
+ESC0027,Escola Monteiro Lobato,Maringá,pr,P,210,2024-08-31,INATIVA
+ESC0028,Colégio Aprender Mais,São Paulo,SP,M,803,2021-07-18,Ativa
+ESC0029,Instituto Dom Bosco,Niterói,RJ,P,248,2022-07-14,ATIVA
+ESC0030,Escola Bom Jesus,Uberlândia,mg,M,526,2018-11-30,Ativa
+ESC0031,Instituto Aprender Mais,Fortaleza,CE,M,425,2021-03-21, ATIVA 
+ESC0032,Escola Novo Saber,Florianópolis,SC,M,527,2024-07-25, ATIVA 
 ESC0033,Instituto Santa Maria,Belo Horizonte,MG,P,252,2016-06-19, ATIVA 
-ESC0034,Centro Educacional Nossa Senhora,São Paulo,sp,M,818,2024-11-26,ATIVA
-ESC0035,Escola Pequeno Príncipe,Campinas,sp,P,246,2019-02-02,ativa
-ESC0036,Colégio Caminho do Saber,Caruaru,PE,M,342,2023-05-28,ATIVA
+ESC0034,Centro Educacional Nossa Senhora,São Paulo,sp,M,818,2024-11-26,ativa
+ESC0035,Escola Pequeno Príncipe,Campinas,sp,P,246,2019-02-02,Ativa
+ESC0036,Colégio Caminho do Saber,Caruaru,PE,M,342,2023-05-28,INATIVA
 ESC0037,Colégio Arco-Íris,Goiânia,GO,M,735,2017-06-30,ativa
-ESC0038,Escola Dom Bosco,Goiânia,GO,P,223,2019-06-21, ATIVA 
-ESC0039,Centro Educacional Integração,Sobral,CE,G,907,2016-04-17,Ativa
-ESC0040,Centro Educacional Aprender Mais,Sorocaba,sp,P,249,2021-06-19,ativa
+ESC0038,Escola Dom Bosco,Goiânia,GO,P,223,2019-06-21,ativa
+ESC0039,Centro Educacional Integração,Sobral,CE,G,907,2016-04-17, ATIVA 
+ESC0040,Centro Educacional Aprender Mais,Sorocaba,sp,P,249,2021-06-19,Ativa
 ESC0041,Escola Caminho do Saber,Ribeirão Preto,sp,M,434,2022-06-13, ATIVA 
-ESC0042,Instituto Bom Jesus,Caxias do Sul,RS,M,587,2018-08-29,Ativa
+ESC0042,Instituto Bom Jesus,Caxias do Sul,RS,M,587,2018-08-29,ATIVA
 ESC0043,Centro Educacional Integração,Campinas,SP,P,268,2018-05-17, ATIVA 
 ESC0044,Instituto Santa Clara,Sobral,CE,M,389,2017-05-25,ativa
-ESC0045,Instituto Monteiro Lobato,Recife,PE,M,607,2017-07-09,ATIVA
-ESC0046,Centro Educacional Pequeno Príncipe,Sorocaba,SP,M,775,2022-10-23,ativa
-ESC0047,Colégio Pequeno Príncipe,Rio de Janeiro,RJ,P,169,2022-10-21,ativa
-ESC0048,Instituto Santa Clara,Sorocaba,SP,M,400,2020-08-29, ATIVA 
+ESC0045,Instituto Monteiro Lobato,Recife,PE,M,607,2017-07-09, ATIVA 
+ESC0046,Centro Educacional Pequeno Príncipe,Sorocaba,SP,M,775,2022-10-23,Ativa
+ESC0047,Colégio Pequeno Príncipe,Rio de Janeiro,RJ,P,169,2022-10-21, ATIVA 
+ESC0048,Instituto Santa Clara,Sorocaba,SP,M,400,2020-08-29,Ativa
 ESC0049,Centro Educacional Santa Clara,Anápolis,GO,M,463,2024-06-02,ativa
-ESC0050,Instituto Santa Clara,Salvador,BA,M,520,2017-08-18,ativa
-ESC0051,Escola Arco-Íris,Petrópolis,RJ,M,514,2017-05-26,ativa
-ESC0052,Escola Pequeno Príncipe,Uberlândia,MG,M,527,2021-07-20,ativa
-ESC0053,Centro Educacional São José,Santo André,SP,G,1148,2019-05-17,ATIVA
-ESC0054,Escola São Francisco,Brasília,DF,M,364,2020-06-12,ATIVA
-ESC0055,Escola Santa Clara,Rio de Janeiro,RJ,M,654,2020-12-27,ATIVA
-ESC0056,Centro Educacional Paulo Freire,Niterói,RJ,M,524,2017-12-01,ATIVA
-ESC0057,Centro Educacional Vila Nova,Ribeirão Preto,SP,P,248,2015-12-02,ativa
-ESC0058,Colégio São José,Salvador,BA,M,372,2015-03-25,ATIVA
-ESC0059,Escola Santa Clara,Santo André,SP,M,479,2016-11-18,Ativa
-ESC0060,Escola Primavera,Belém,PA,G,1245,2018-07-01,Ativa
+ESC0050,Instituto Santa Clara,Salvador,BA,M,520,2017-08-18,ATIVA
+ESC0051,Escola Arco-Íris,Petrópolis,RJ,M,514,2017-05-26, ATIVA 
+ESC0052,Escola Pequeno Príncipe,Uberlândia,MG,M,527,2021-07-20,ATIVA
+ESC0053,Centro Educacional São José,Santo André,SP,G,1148,2019-05-17, ATIVA 
+ESC0054,Escola São Francisco,Brasília,DF,M,364,2020-06-12, ATIVA 
+ESC0055,Escola Santa Clara,Rio de Janeiro,RJ,M,654,2020-12-27,ativa
+ESC0056,Centro Educacional Paulo Freire,Niterói,RJ,M,524,2017-12-01,ativa
+ESC0057,Centro Educacional Vila Nova,Ribeirão Preto,SP,P,248,2015-12-02, INATIVA 
+ESC0058,Colégio São José,Salvador,BA,M,372,2015-03-25, ATIVA 
+ESC0059,Escola Santa Clara,Santo André,SP,M,479,2016-11-18,ATIVA
+ESC0060,Escola Primavera,Belém,PA,G,1245,2018-07-01, ATIVA 
 ESC0061,Escola Cecília Meireles,Anápolis,GO,P,245,2021-09-25, ATIVA 
-ESC0062,Centro Educacional Integração,Caruaru,pe,M,525,2022-04-06,ATIVA
-ESC0063,Instituto Sol Nascente,Sobral,CE,M,692,2019-11-19,ativa
-ESC0064,Centro Educacional Santa Clara,Londrina,PR,M,713,2021-08-23, ATIVA 
+ESC0062,Centro Educacional Integração,Caruaru,pe,M,525,2022-04-06,ativa
+ESC0063,Instituto Sol Nascente,Sobral,CE,M,692,2019-11-19,ATIVA
+ESC0064,Centro Educacional Santa Clara,Londrina,PR,M,713,2021-08-23,Ativa
 ESC0065,Centro Educacional Educar,Sobral,CE,M,793,2020-07-17,ATIVA
-ESC0066,Instituto Vila Nova,Sorocaba,SP,P,128,2018-02-05,ATIVA
-ESC0067,Centro Educacional São Francisco,Juiz de Fora,MG,M,335,2022-09-29,ativa
-ESC0068,Instituto Dom Bosco,Feira de Santana,BA,M,468,2018-06-08,Ativa
-ESC0069,Instituto Caminho do Saber,Petrópolis,RJ,M,532,2018-06-09,Ativa
-ESC0070,Escola Machado de Assis,Campinas,SP,M,354,2018-02-06, ATIVA 
+ESC0066,Instituto Vila Nova,Sorocaba,SP,P,128,2018-02-05,Ativa
+ESC0067,Centro Educacional São Francisco,Juiz de Fora,MG,M,335,2022-09-29, ATIVA 
+ESC0068,Instituto Dom Bosco,Feira de Santana,BA,M,468,2018-06-08, ATIVA 
+ESC0069,Instituto Caminho do Saber,Petrópolis,RJ,M,532,2018-06-09, ATIVA 
+ESC0070,Escola Machado de Assis,Campinas,SP,M,354,2018-02-06,ativa
 ESC0071,Colégio Machado de Assis,Belém,PA,M,508,2017-01-04,ativa
-ESC0072,Escola Sol Nascente,Joinville,sc,P,272,2015-02-20,ativa
-ESC0073,Colégio Vila Nova,Uberlândia,mg,M,459,2015-09-25, ATIVA 
-ESC0074,Escola Educar,Santo André,sp,M,560,2017-10-13,ativa
-ESC0075,Escola Bom Jesus,Feira de Santana,BA,M,795,2019-12-19, ATIVA 
-ESC0076,Colégio Aprender Mais,Maringá,pr,M,421,2023-07-22,ativa
-ESC0077,Escola Nossa Senhora,São Paulo,SP,M,589,2019-08-01,Ativa
+ESC0072,Escola Sol Nascente,Joinville,sc,P,272,2015-02-20, ATIVA 
+ESC0073,Colégio Vila Nova,Uberlândia,mg,M,459,2015-09-25,Ativa
+ESC0074,Escola Educar,Santo André,sp,M,560,2017-10-13, ATIVA 
+ESC0075,Escola Bom Jesus,Feira de Santana,BA,M,795,2019-12-19,ATIVA
+ESC0076,Colégio Aprender Mais,Maringá,pr,M,421,2023-07-22, ATIVA 
+ESC0077,Escola Nossa Senhora,São Paulo,SP,M,589,2019-08-01, ATIVA 
 ESC0078,Instituto Santa Clara,Curitiba,PR,M,381,2017-12-19,Ativa
 ESC0079,Escola Vila Nova,Porto Alegre,rs,M,421,2016-11-10,ativa
-ESC0080,Instituto Arco-Íris,Londrina,PR,M,442,2020-07-15,Ativa
-ESC0081,Escola Integração,Maringá,PR,M,544,2015-03-26,ATIVA
-ESC0082,Centro Educacional Vila Nova,Florianópolis,SC,M,777,2019-11-21,ativa
-ESC0083,Instituto Novo Saber,Juiz de Fora,mg,P,272,2016-10-20,ativa
+ESC0080,Instituto Arco-Íris,Londrina,PR,M,442,2020-07-15,ATIVA
+ESC0081,Escola Integração,Maringá,PR,M,544,2015-03-26,ativa
+ESC0082,Centro Educacional Vila Nova,Florianópolis,SC,M,777,2019-11-21,Ativa
+ESC0083,Instituto Novo Saber,Juiz de Fora,mg,P,272,2016-10-20, ATIVA 
 ESC0084,Centro Educacional Monteiro Lobato,Joinville,SC,G,951,2016-04-19,ATIVA
-ESC0085,Centro Educacional Pequeno Príncipe,Belo Horizonte,MG,G,1570,2019-01-21,ativa
-ESC0086,Instituto Nossa Senhora,Belo Horizonte,MG,M,465,2019-11-30,ATIVA
-ESC0087,Instituto Nossa Senhora,Belo Horizonte,MG,G,1303,2016-01-17, ATIVA 
-ESC0088,Instituto Bom Jesus,Sobral,CE,M,580,2020-05-30,ativa
-ESC0089,Escola Monteiro Lobato,Santo André,SP,M,532,2024-07-31,ativa
-ESC0090,Instituto Primavera,Brasília,DF,M,513,2020-01-04, ATIVA 
-ESC0091,Centro Educacional Novo Saber,Rio de Janeiro,RJ,M,548,2017-09-05,Ativa
-ESC0092,Centro Educacional Arco-Íris,Campinas,SP,G,1078,2015-06-01,ativa
-ESC0093,Centro Educacional Cecília Meireles,Belém,pa,M,413,2016-08-13,ativa
-ESC0094,Instituto Novo Saber,Caxias do Sul,RS,P,266,2024-07-20,Ativa
+ESC0085,Centro Educacional Pequeno Príncipe,Belo Horizonte,MG,G,1570,2019-01-21,ATIVA
+ESC0086,Instituto Nossa Senhora,Belo Horizonte,MG,M,465,2019-11-30,ativa
+ESC0087,Instituto Nossa Senhora,Belo Horizonte,MG,G,1303,2016-01-17,ATIVA
+ESC0088,Instituto Bom Jesus,Sobral,CE,M,580,2020-05-30,Ativa
+ESC0089,Escola Monteiro Lobato,Santo André,SP,M,532,2024-07-31,ATIVA
+ESC0090,Instituto Primavera,Brasília,DF,M,513,2020-01-04,Ativa
+ESC0091,Centro Educacional Novo Saber,Rio de Janeiro,RJ,M,548,2017-09-05,ATIVA
+ESC0092,Centro Educacional Arco-Íris,Campinas,SP,G,1078,2015-06-01,ATIVA
+ESC0093,Centro Educacional Cecília Meireles,Belém,pa,M,413,2016-08-13,Ativa
+ESC0094,Instituto Novo Saber,Caxias do Sul,RS,P,266,2024-07-20,ATIVA
 ESC0095,Centro Educacional Nossa Senhora,Florianópolis,SC,G,984,2017-08-19,Ativa
 ESC0096,Colégio Santa Clara,Goiânia,GO,M,459,2015-04-29, ATIVA 
-ESC0097,Escola Dom Bosco,Caruaru,PE,M,360,2023-11-21,inativa
+ESC0097,Escola Dom Bosco,Caruaru,PE,M,360,2023-11-21,ativa
 ESC0098,Escola São Francisco,Sorocaba,sp,M,582,2020-03-03,ativa
-ESC0099,Centro Educacional Primavera,Juiz de Fora,MG,G,2338,2015-10-30, ATIVA 
-ESC0100,Centro Educacional Vila Nova,Niterói,RJ,M,619,2017-03-26,ativa
-ESC0101,Instituto Educar,Sobral,CE,P,270,2018-04-24,Ativa
+ESC0099,Centro Educacional Primavera,Juiz de Fora,MG,G,2338,2015-10-30,Ativa
+ESC0100,Centro Educacional Vila Nova,Niterói,RJ,M,619,2017-03-26,Ativa
+ESC0101,Instituto Educar,Sobral,CE,P,270,2018-04-24, ATIVA 
 ESC0102,Colégio Aprender Mais,Sobral,CE,M,446,2018-03-18,ativa
-ESC0103,Escola Aprender Mais,Santo André,SP,M,709,2023-01-31,ATIVA
-ESC0104,Centro Educacional Santa Maria,Joinville,SC,M,558,2016-01-05,Ativa
-ESC0105,Instituto Bom Jesus,Petrópolis,RJ,M,445,2024-04-24, ATIVA 
+ESC0103,Escola Aprender Mais,Santo André,SP,M,709,2023-01-31, ATIVA 
+ESC0104,Centro Educacional Santa Maria,Joinville,SC,M,558,2016-01-05,ATIVA
+ESC0105,Instituto Bom Jesus,Petrópolis,RJ,M,445,2024-04-24,ativa
 ESC0106,Colégio Santa Clara,Goiânia,go,P,110,2017-07-13,Ativa
-ESC0107,Centro Educacional São José,Feira de Santana,BA,M,775,2020-02-06,Ativa
+ESC0107,Centro Educacional São José,Feira de Santana,BA,M,775,2020-02-06,ativa
 ESC0108,Instituto Cecília Meireles,Salvador,BA,M,342,2021-12-12,Ativa
-ESC0109,Colégio Sol Nascente,Londrina,PR,M,815,2018-05-22,Ativa
+ESC0109,Colégio Sol Nascente,Londrina,PR,M,815,2018-05-22,ATIVA
 ESC0110,Centro Educacional Santa Clara,Santo André,SP,P,286,2023-05-02,ativa
-ESC0111,Centro Educacional Sol Nascente,Curitiba,PR,M,666,2021-11-26, ATIVA 
-ESC0112,Centro Educacional Santa Clara,Brasília,DF,P,244,2016-02-11,ativa
+ESC0111,Centro Educacional Sol Nascente,Curitiba,PR,M,666,2021-11-26,Ativa
+ESC0112,Centro Educacional Santa Clara,Brasília,DF,P,244,2016-02-11,ATIVA
 ESC0113,Colégio Arco-Íris,Niterói,RJ,G,1432,2016-05-15,Ativa
-ESC0114,Colégio Santa Maria,Caruaru,PE,M,302,2016-05-30,ativa
-ESC0115,Escola Dom Bosco,Santo André,SP,G,990,2023-11-05, ATIVA 
+ESC0114,Colégio Santa Maria,Caruaru,PE,M,302,2016-05-30,ATIVA
+ESC0115,Escola Dom Bosco,Santo André,SP,G,990,2023-11-05,ativa
 ESC0116,Escola Nossa Senhora,Santo André,SP,M,731,2016-03-26,ATIVA
-ESC0117,Escola Vila Nova,São Paulo,sp,M,341,2019-09-21, ATIVA 
+ESC0117,Escola Vila Nova,São Paulo,sp,M,341,2019-09-21,ativa
 ESC0118,Colégio Santa Clara,Salvador,BA,M,445,2015-06-27,Ativa
 ESC0119,Colégio Santa Maria,Anápolis,GO,M,610,2019-10-13,Ativa
 ESC0120,Colégio Paulo Freire,Uberlândia,MG,P,179,2021-07-25, ATIVA 
-ESC0121,Colégio Cecília Meireles,Petrópolis,RJ,M,441,2023-08-16, ATIVA 
-ESC0122,Centro Educacional Novo Saber,Sobral,CE,P,273,2023-03-08,ATIVA
-ESC0123,Escola Integração,Uberlândia,mg,M,632,2024-04-29,Ativa
-ESC0124,Escola Nossa Senhora,Belo Horizonte,MG,M,711,2021-04-19,ativa
-ESC0125,Centro Educacional Santa Maria,Joinville,SC,P,253,2018-12-11, ATIVA 
-ESC0126,Colégio Caminho do Saber,Juiz de Fora,MG,P,262,2023-07-21,Ativa
+ESC0121,Colégio Cecília Meireles,Petrópolis,RJ,M,441,2023-08-16,ativa
+ESC0122,Centro Educacional Novo Saber,Sobral,CE,P,273,2023-03-08,Ativa
+ESC0123,Escola Integração,Uberlândia,mg,M,632,2024-04-29,ATIVA
+ESC0124,Escola Nossa Senhora,Belo Horizonte,MG,M,711,2021-04-19,Ativa
+ESC0125,Centro Educacional Santa Maria,Joinville,SC,P,253,2018-12-11,ATIVA
+ESC0126,Colégio Caminho do Saber,Juiz de Fora,MG,P,262,2023-07-21,ATIVA
 ESC0127,Colégio Aprender Mais,Santo André,sp,M,423,2018-01-24,ATIVA
-ESC0128,Centro Educacional Monteiro Lobato,Rio de Janeiro,RJ,G,1101,2015-05-06,Ativa
+ESC0128,Centro Educacional Monteiro Lobato,Rio de Janeiro,RJ,G,1101,2015-05-06,ATIVA
 ESC0129,Escola Caminho do Saber,Londrina,PR,M,397,2023-09-17,ativa
-ESC0130,Colégio Integração,Curitiba,PR,M,756,2022-06-04,Inativa
-ESC0131,Colégio Caminho do Saber,Caxias do Sul,rs,M,444,2022-08-09,ATIVA
-ESC0132,Centro Educacional Aprender Mais,Belo Horizonte,mg,M,581,2018-05-19,ativa
+ESC0130,Colégio Integração,Curitiba,PR,M,756,2022-06-04,ativa
+ESC0131,Colégio Caminho do Saber,Caxias do Sul,rs,M,444,2022-08-09,ativa
+ESC0132,Centro Educacional Aprender Mais,Belo Horizonte,mg,M,581,2018-05-19,ATIVA
 ESC0133,Colégio São José,Feira de Santana,BA,M,699,2016-12-20,Ativa
 ESC0134,Instituto Monteiro Lobato,Londrina,PR,P,276,2015-06-23,Ativa
-ESC0135,Centro Educacional Educar,Uberlândia,MG,P,275,2019-09-07, ATIVA 
-ESC0136,Instituto Monteiro Lobato,Uberlândia,MG,G,1077,2017-09-23, ATIVA 
-ESC0137,Escola Monteiro Lobato,Juiz de Fora,MG,M,663,2020-12-13, ATIVA 
-ESC0138,Escola Dom Bosco,Goiânia,go,P,292,2017-03-19,ATIVA
+ESC0135,Centro Educacional Educar,Uberlândia,MG,P,275,2019-09-07,ATIVA
+ESC0136,Instituto Monteiro Lobato,Uberlândia,MG,G,1077,2017-09-23,ativa
+ESC0137,Escola Monteiro Lobato,Juiz de Fora,MG,M,663,2020-12-13,Ativa
+ESC0138,Escola Dom Bosco,Goiânia,go,P,292,2017-03-19,ativa
 ESC0139,Centro Educacional Santa Clara,Sorocaba,SP,M,641,2020-01-13,Ativa
-ESC0140,Centro Educacional Santa Clara,Sobral,CE,M,361,2021-08-19,ATIVA
-ESC0141,Colégio Caminho do Saber,Uberlândia,mg,M,355,2024-09-09,Ativa
-ESC0142,Colégio Santa Clara,Sorocaba,SP,M,569,2018-08-09, ATIVA 
-ESC0143,Instituto Monteiro Lobato,Juiz de Fora,MG,G,1081,2015-06-10, ATIVA 
-ESC0144,Escola Caminho do Saber,Uberlândia,MG,M,437,2019-05-06, ATIVA 
-ESC0145,Instituto Monteiro Lobato,Niterói,rj,M,763,2022-08-10,ativa
-ESC0146,Colégio Educar,Campinas,SP,M,552,2018-06-24,Ativa
+ESC0140,Centro Educacional Santa Clara,Sobral,CE,M,361,2021-08-19,ativa
+ESC0141,Colégio Caminho do Saber,Uberlândia,mg,M,355,2024-09-09, ATIVA 
+ESC0142,Colégio Santa Clara,Sorocaba,SP,M,569,2018-08-09,ATIVA
+ESC0143,Instituto Monteiro Lobato,Juiz de Fora,MG,G,1081,2015-06-10,Ativa
+ESC0144,Escola Caminho do Saber,Uberlândia,MG,M,437,2019-05-06,ATIVA
+ESC0145,Instituto Monteiro Lobato,Niterói,rj,M,763,2022-08-10, ATIVA 
+ESC0146,Colégio Educar,Campinas,SP,M,552,2018-06-24, ATIVA 
 ESC0147,Colégio Primavera,Joinville,SC,M,383,2018-09-07,ATIVA
-ESC0148,Colégio Sol Nascente,Joinville,SC,G,1616,2015-03-16,ativa
-ESC0149,Escola Paulo Freire,São Paulo,SP,M,484,2023-11-03,ativa
-ESC0150,Escola Aprender Mais,Feira de Santana,BA,P,255,2017-01-10, ATIVA 
-ESC0151,Centro Educacional Santa Maria,Feira de Santana,BA,M,698,2023-01-26,Ativa
-ESC0152,Centro Educacional Dom Bosco,Juiz de Fora,MG,P,219,2024-01-26, ATIVA 
-ESC0153,Centro Educacional Santa Clara,Anápolis,GO,P,200,2020-08-21,ATIVA
-ESC0154,Centro Educacional Caminho do Saber,Belém,PA,M,312,2020-10-14, ATIVA 
-ESC0155,Escola Pequeno Príncipe,São Paulo,SP,M,693,2017-06-28,ativa
-ESC0156,Centro Educacional Bom Jesus,Sobral,CE,G,986,2015-12-01, ATIVA 
-ESC0157,Escola Santa Maria,Santo André,SP,G,970,2020-04-19,Ativa
+ESC0148,Colégio Sol Nascente,Joinville,SC,G,1616,2015-03-16,Ativa
+ESC0149,Escola Paulo Freire,São Paulo,SP,M,484,2023-11-03,inativa
+ESC0150,Escola Aprender Mais,Feira de Santana,BA,P,255,2017-01-10,ATIVA
+ESC0151,Centro Educacional Santa Maria,Feira de Santana,BA,M,698,2023-01-26,ativa
+ESC0152,Centro Educacional Dom Bosco,Juiz de Fora,MG,P,219,2024-01-26,ativa
+ESC0153,Centro Educacional Santa Clara,Anápolis,GO,P,200,2020-08-21, ATIVA 
+ESC0154,Centro Educacional Caminho do Saber,Belém,PA,M,312,2020-10-14,ATIVA
+ESC0155,Escola Pequeno Príncipe,São Paulo,SP,M,693,2017-06-28,ATIVA
+ESC0156,Centro Educacional Bom Jesus,Sobral,CE,G,986,2015-12-01,ativa
+ESC0157,Escola Santa Maria,Santo André,SP,G,970,2020-04-19,ATIVA
 ESC0158,Colégio Monteiro Lobato,São Paulo,SP,M,700,2024-05-13, ATIVA 
-ESC0159,Instituto Dom Bosco,Brasília,df,M,588,2017-09-03,Ativa
+ESC0159,Instituto Dom Bosco,Brasília,df,M,588,2017-09-03,ativa
 ESC0160,Centro Educacional Aprender Mais,Recife,PE,M,470,2021-06-13,ativa
-ESC0161,Escola Educar,Ribeirão Preto,SP,M,414,2022-06-30,ATIVA
-ESC0162,Colégio Arco-Íris,Belém,pa,P,208,2019-05-04, ATIVA 
-ESC0163,Colégio Educar,Santo André,sp,P,284,2018-12-14,ATIVA
-ESC0164,Escola Paulo Freire,Recife,PE,M,441,2020-02-18, ATIVA 
-ESC0165,Centro Educacional Nossa Senhora,Ribeirão Preto,SP,M,382,2023-06-13, ATIVA 
-ESC0166,Instituto Pequeno Príncipe,Ribeirão Preto,SP,M,603,2019-05-03,ativa
-ESC0167,Instituto Monteiro Lobato,Ribeirão Preto,sp,M,656,2021-10-03,ativa
-ESC0168,Instituto Integração,Santo André,SP,M,396,2021-10-04, ATIVA 
+ESC0161,Escola Educar,Ribeirão Preto,SP,M,414,2022-06-30,ativa
+ESC0162,Colégio Arco-Íris,Belém,pa,P,208,2019-05-04,ativa
+ESC0163,Colégio Educar,Santo André,sp,P,284,2018-12-14, ATIVA 
+ESC0164,Escola Paulo Freire,Recife,PE,M,441,2020-02-18,ATIVA
+ESC0165,Centro Educacional Nossa Senhora,Ribeirão Preto,SP,M,382,2023-06-13,Ativa
+ESC0166,Instituto Pequeno Príncipe,Ribeirão Preto,SP,M,603,2019-05-03,ATIVA
+ESC0167,Instituto Monteiro Lobato,Ribeirão Preto,sp,M,656,2021-10-03, ATIVA 
+ESC0168,Instituto Integração,Santo André,SP,M,396,2021-10-04,Ativa
 ESC0169,Instituto Aprender Mais,Ribeirão Preto,SP,M,447,2023-11-16, ATIVA 
-ESC0170,Escola São José,Campinas,SP,M,604,2022-08-09,ATIVA
-ESC0171,Colégio Aprender Mais,Campinas,SP,M,401,2019-02-28, ATIVA 
-ESC0172,Centro Educacional Novo Saber,Feira de Santana,BA,M,571,2016-04-09, ATIVA 
-ESC0173,Colégio Vila Nova,Santo André,SP,M,598,2017-05-28,ativa
-ESC0174,Colégio Paulo Freire,São Paulo,SP,G,1066,2022-12-31,ATIVA
-ESC0175,Instituto Integração,Santo André,SP,G,1496,2021-03-02,Ativa
-ESC0176,Escola Caminho do Saber,Goiânia,go,G,1556,2017-04-03,ATIVA
+ESC0170,Escola São José,Campinas,SP,M,604,2022-08-09, ATIVA 
+ESC0171,Colégio Aprender Mais,Campinas,SP,M,401,2019-02-28,INATIVA
+ESC0172,Centro Educacional Novo Saber,Feira de Santana,BA,M,571,2016-04-09,Ativa
+ESC0173,Colégio Vila Nova,Santo André,SP,M,598,2017-05-28,Ativa
+ESC0174,Colégio Paulo Freire,São Paulo,SP,G,1066,2022-12-31, ATIVA 
+ESC0175,Instituto Integração,Santo André,SP,G,1496,2021-03-02, ATIVA 
+ESC0176,Escola Caminho do Saber,Goiânia,go,G,1556,2017-04-03,Ativa
 ESC0177,Instituto Santa Clara,Sorocaba,sp,M,488,2024-11-30,Ativa
-ESC0178,Colégio Paulo Freire,Niterói,RJ,M,547,2020-01-18, ATIVA 
+ESC0178,Colégio Paulo Freire,Niterói,RJ,M,547,2020-01-18,INATIVA
 ESC0179,Escola Pequeno Príncipe,Juiz de Fora,MG,M,554,2015-08-15, ATIVA 
-ESC0180,Escola Caminho do Saber,Juiz de Fora,MG,M,395,2024-06-26, ATIVA 
-ESC0181,Instituto Aprender Mais,Sorocaba,sp,M,891,2022-03-10,ativa
-ESC0182,Instituto Educar,Brasília,DF,P,189,2015-04-27,ativa
-ESC0183,Escola Educar,Brasília,DF,M,697,2015-05-05, ATIVA 
-ESC0184,Centro Educacional Primavera,Caxias do Sul,rs,M,453,2015-09-03,Ativa
-ESC0185,Escola Novo Saber,Juiz de Fora,MG,M,468,2024-08-26, INATIVA 
-ESC0186,Colégio Novo Saber,Rio de Janeiro,RJ,M,818,2017-12-31,ATIVA
-ESC0187,Escola Novo Saber,Sorocaba,SP,M,889,2017-02-16, ATIVA 
-ESC0188,Instituto São Francisco,Belo Horizonte,mg,M,506,2019-05-30, ATIVA 
-ESC0189,Colégio Primavera,Belém,PA,M,325,2024-06-14,Ativa
-ESC0190,Centro Educacional Paulo Freire,Uberlândia,MG,M,618,2023-07-26,ativa
-ESC0191,Instituto Nossa Senhora,Santo André,sp,P,187,2020-08-27,ATIVA
-ESC0192,Colégio Paulo Freire,Curitiba,PR,G,1112,2023-11-30,ativa
+ESC0180,Escola Caminho do Saber,Juiz de Fora,MG,M,395,2024-06-26,ATIVA
+ESC0181,Instituto Aprender Mais,Sorocaba,sp,M,891,2022-03-10,Ativa
+ESC0182,Instituto Educar,Brasília,DF,P,189,2015-04-27,ATIVA
+ESC0183,Escola Educar,Brasília,DF,M,697,2015-05-05,ATIVA
+ESC0184,Centro Educacional Primavera,Caxias do Sul,rs,M,453,2015-09-03, ATIVA 
+ESC0185,Escola Novo Saber,Juiz de Fora,MG,M,468,2024-08-26,ATIVA
+ESC0186,Colégio Novo Saber,Rio de Janeiro,RJ,M,818,2017-12-31,Ativa
+ESC0187,Escola Novo Saber,Sorocaba,SP,M,889,2017-02-16,Ativa
+ESC0188,Instituto São Francisco,Belo Horizonte,mg,M,506,2019-05-30,Ativa
+ESC0189,Colégio Primavera,Belém,PA,M,325,2024-06-14,INATIVA
+ESC0190,Centro Educacional Paulo Freire,Uberlândia,MG,M,618,2023-07-26,ATIVA
+ESC0191,Instituto Nossa Senhora,Santo André,sp,P,187,2020-08-27,Ativa
+ESC0192,Colégio Paulo Freire,Curitiba,PR,G,1112,2023-11-30,ATIVA
 ESC0193,Centro Educacional Bom Jesus,Curitiba,pr,M,424,2016-07-15,Ativa
-ESC0194,Escola Novo Saber,Caruaru,PE,M,503,2021-11-30, ATIVA 
-ESC0195,Centro Educacional Educar,Santo André,SP,P,200,2015-03-10,ATIVA
-ESC0196,Colégio Aprender Mais,Joinville,SC,G,1365,2022-05-09,ATIVA
-ESC0197,Centro Educacional Anísio Teixeira,Feira de Santana,ba,M,640,2022-08-20,ativa
-ESC0198,Centro Educacional Novo Saber,Londrina,PR,M,622,2022-09-29,ATIVA
+ESC0194,Escola Novo Saber,Caruaru,PE,M,503,2021-11-30,ativa
+ESC0195,Centro Educacional Educar,Santo André,SP,P,200,2015-03-10,ativa
+ESC0196,Colégio Aprender Mais,Joinville,SC,G,1365,2022-05-09, ATIVA 
+ESC0197,Centro Educacional Anísio Teixeira,Feira de Santana,ba,M,640,2022-08-20,ATIVA
+ESC0198,Centro Educacional Novo Saber,Londrina,PR,M,622,2022-09-29,ativa
 ESC0199,Colégio Paulo Freire,Juiz de Fora,MG,M,601,2018-08-24,Ativa
-ESC0200,Instituto Integração,Juiz de Fora,MG,M,454,2024-01-05,ATIVA
-ESC0201,Instituto Dom Bosco,Caxias do Sul,RS,M,335,2022-11-27,Ativa
-ESC0202,Instituto Primavera,Florianópolis,SC,M,378,2021-02-02,ATIVA
-ESC0203,Instituto Monteiro Lobato,Manaus,AM,M,738,2022-05-10,ATIVA
+ESC0200,Instituto Integração,Juiz de Fora,MG,M,454,2024-01-05,ativa
+ESC0201,Instituto Dom Bosco,Caxias do Sul,RS,M,335,2022-11-27,ATIVA
+ESC0202,Instituto Primavera,Florianópolis,SC,M,378,2021-02-02,Ativa
+ESC0203,Instituto Monteiro Lobato,Manaus,AM,M,738,2022-05-10,Inativa
 ESC0204,Instituto Paulo Freire,Belo Horizonte,MG,P,267,2021-07-31,Ativa
 ESC0205,Escola Santa Maria,São Paulo,SP,M,807,2023-01-17,ATIVA
-ESC0206,Centro Educacional São Francisco,Florianópolis,SC,G,1650,2018-03-22,Ativa
+ESC0206,Centro Educacional São Francisco,Florianópolis,SC,G,1650,2018-03-22,ATIVA
 ESC0207,Colégio Anísio Teixeira,Caxias do Sul,RS,M,572,2016-12-21, ATIVA 
-ESC0208,Instituto Santa Maria,São Paulo,SP,P,151,2021-10-04,inativa
+ESC0208,Instituto Santa Maria,São Paulo,SP,P,151,2021-10-04,ATIVA
 ESC0209,Escola Bom Jesus,Manaus,AM,M,534,2024-01-26,ativa
 ESC0210,Escola São José,Santo André,SP,M,467,2021-05-14,Ativa
-ESC0211,Centro Educacional Pequeno Príncipe,Sorocaba,SP,M,658,2019-06-30,Ativa
+ESC0211,Centro Educacional Pequeno Príncipe,Sorocaba,SP,M,658,2019-06-30, ATIVA 
 ESC0212,Escola São José,Santo André,SP,P,298,2020-01-04, ATIVA 
-ESC0213,Colégio Vila Nova,Brasília,DF,P,251,2015-09-12,ativa
+ESC0213,Colégio Vila Nova,Brasília,DF,P,251,2015-09-12, ATIVA 
 ESC0214,Instituto Cecília Meireles,Juiz de Fora,MG,P,177,2018-04-23, ATIVA 
-ESC0215,Centro Educacional Aprender Mais,Santo André,SP,G,1126,2021-02-27,ATIVA
-ESC0216,Colégio Bom Jesus,Feira de Santana,BA,G,1067,2019-01-21,ativa
-ESC0217,Escola Educar,Maringá,pr,P,197,2018-09-05,Ativa
-ESC0218,Centro Educacional Monteiro Lobato,Juiz de Fora,MG,M,898,2015-08-16,ativa
-ESC0219,Centro Educacional Integração,Uberlândia,MG,M,471,2019-06-10,Inativa
-ESC0220,Centro Educacional Caminho do Saber,São Paulo,SP,M,369,2015-09-04,ATIVA
-ESC0221,Centro Educacional Caminho do Saber,Ribeirão Preto,SP,M,339,2019-03-27,ativa
-ESC0222,Instituto Cecília Meireles,Florianópolis,SC,M,686,2019-05-29,Ativa
-ESC0223,Centro Educacional Nossa Senhora,Feira de Santana,BA,P,259,2017-10-10,ATIVA
-ESC0224,Colégio Dom Bosco,Campinas,sp,M,729,2021-08-29,Ativa
-ESC0225,Colégio Arco-Íris,Londrina,PR,M,602,2017-06-08,INATIVA
-ESC0226,Instituto Dom Bosco,Feira de Santana,BA,M,584,2022-05-28,ativa
-ESC0227,Escola Sol Nascente,Juiz de Fora,MG,M,305,2020-07-23,ATIVA
-ESC0228,Instituto Pequeno Príncipe,Niterói,rj,M,613,2019-03-22,ativa
-ESC0229,Escola Santa Clara,Curitiba,PR,M,359,2019-09-03,Ativa
-ESC0230,Colégio Santa Clara,Santo André,sp,M,363,2023-02-15,Ativa
+ESC0215,Centro Educacional Aprender Mais,Santo André,SP,G,1126,2021-02-27, ATIVA 
+ESC0216,Colégio Bom Jesus,Feira de Santana,BA,G,1067,2019-01-21, ATIVA 
+ESC0217,Escola Educar,Maringá,pr,P,197,2018-09-05,ativa
+ESC0218,Centro Educacional Monteiro Lobato,Juiz de Fora,MG,M,898,2015-08-16,ATIVA
+ESC0219,Centro Educacional Integração,Uberlândia,MG,M,471,2019-06-10, ATIVA 
+ESC0220,Centro Educacional Caminho do Saber,São Paulo,SP,M,369,2015-09-04,Ativa
+ESC0221,Centro Educacional Caminho do Saber,Ribeirão Preto,SP,M,339,2019-03-27,Ativa
+ESC0222,Instituto Cecília Meireles,Florianópolis,SC,M,686,2019-05-29, ATIVA 
+ESC0223,Centro Educacional Nossa Senhora,Feira de Santana,BA,P,259,2017-10-10,ativa
+ESC0224,Colégio Dom Bosco,Campinas,sp,M,729,2021-08-29,INATIVA
+ESC0225,Colégio Arco-Íris,Londrina,PR,M,602,2017-06-08,ativa
+ESC0226,Instituto Dom Bosco,Feira de Santana,BA,M,584,2022-05-28, ATIVA 
+ESC0227,Escola Sol Nascente,Juiz de Fora,MG,M,305,2020-07-23,Ativa
+ESC0228,Instituto Pequeno Príncipe,Niterói,rj,M,613,2019-03-22,ATIVA
+ESC0229,Escola Santa Clara,Curitiba,PR,M,359,2019-09-03,ativa
+ESC0230,Colégio Santa Clara,Santo André,sp,M,363,2023-02-15,ATIVA
 ESC0231,Colégio Monteiro Lobato,Campinas,SP,M,367,2021-08-03, ATIVA 
-ESC0232,Instituto Primavera,Curitiba,PR,M,424,2017-02-17,ativa
-ESC0233,Escola Arco-Íris,Campinas,SP,P,266,2023-09-12,Ativa
-ESC0234,Instituto Bom Jesus,Uberlândia,MG,M,603,2024-01-02,ATIVA
+ESC0232,Instituto Primavera,Curitiba,PR,M,424,2017-02-17,Ativa
+ESC0233,Escola Arco-Íris,Campinas,SP,P,266,2023-09-12,ATIVA
+ESC0234,Instituto Bom Jesus,Uberlândia,MG,M,603,2024-01-02,ativa
 ESC0235,Escola Paulo Freire,Belo Horizonte,MG,M,400,2021-07-20,Ativa
 ESC0236,Centro Educacional Educar,Belo Horizonte,MG,M,302,2022-05-05,ATIVA
-ESC0237,Centro Educacional Santa Clara,Rio de Janeiro,RJ,M,801,2018-12-13,ATIVA
+ESC0237,Centro Educacional Santa Clara,Rio de Janeiro,RJ,M,801,2018-12-13, ATIVA 
 ESC0238,Colégio Bom Jesus,Salvador,BA,M,431,2015-11-01,ATIVA
-ESC0239,Escola Monteiro Lobato,Florianópolis,sc,M,753,2020-09-02,ATIVA
+ESC0239,Escola Monteiro Lobato,Florianópolis,sc,M,753,2020-09-02,ativa
 ESC0240,Instituto Nossa Senhora,Santo André,sp,M,452,2024-02-13,ativa
-ESC0241,Escola Machado de Assis,Juiz de Fora,MG,G,1129,2024-02-22,ativa
-ESC0242,Escola Primavera,Recife,PE,M,468,2024-08-16,ativa
-ESC0243,Centro Educacional Santa Maria,São Paulo,SP,M,426,2015-12-05,ATIVA
-ESC0244,Colégio Bom Jesus,Belo Horizonte,MG,G,914,2024-09-25,Inativa
+ESC0241,Escola Machado de Assis,Juiz de Fora,MG,G,1129,2024-02-22, ATIVA 
+ESC0242,Escola Primavera,Recife,PE,M,468,2024-08-16,Ativa
+ESC0243,Centro Educacional Santa Maria,São Paulo,SP,M,426,2015-12-05,ativa
+ESC0244,Colégio Bom Jesus,Belo Horizonte,MG,G,914,2024-09-25,Ativa
 ESC0245,Colégio Anísio Teixeira,Londrina,pr,M,627,2017-04-28,Ativa
 ESC0246,Colégio Primavera,Salvador,BA,M,687,2021-05-10,ATIVA
 ESC0247,Escola Monteiro Lobato,Petrópolis,RJ,M,862,2018-11-17,ativa
-ESC0248,Centro Educacional Novo Saber,Belo Horizonte,MG,M,799,2023-10-15,Ativa
+ESC0248,Centro Educacional Novo Saber,Belo Horizonte,MG,M,799,2023-10-15,ativa
 ESC0249,Centro Educacional Monteiro Lobato,Juiz de Fora,MG,M,403,2017-10-06,ativa
-ESC0250,Escola Arco-Íris,Santo André,SP,P,158,2016-01-10,Ativa
+ESC0250,Escola Arco-Íris,Santo André,SP,P,158,2016-01-10, ATIVA 
 ESC0251,Escola Monteiro Lobato,Rio de Janeiro,RJ,M,411,2021-03-31,ativa
-ESC0252,Colégio Aprender Mais,Juiz de Fora,MG,P,246,2024-09-07, ATIVA 
-ESC0253,Escola Educar,Sorocaba,SP,M,438,2019-04-09,ATIVA
+ESC0252,Colégio Aprender Mais,Juiz de Fora,MG,P,246,2024-09-07,Ativa
+ESC0253,Escola Educar,Sorocaba,SP,M,438,2019-04-09,Ativa
 ESC0254,Escola Pequeno Príncipe,Santo André,SP,M,381,2020-06-06,Ativa
 ESC0255,Centro Educacional Cecília Meireles,Rio de Janeiro,RJ,M,487,2019-06-09,ATIVA
 ESC0256,Instituto Pequeno Príncipe,Porto Alegre,RS,M,755,2021-10-06, ATIVA 
-ESC0257,Centro Educacional Educar,Campinas,SP,G,919,2018-02-22, ATIVA 
-ESC0258,Escola Integração,Petrópolis,rj,P,213,2023-02-26,ATIVA
-ESC0259,Colégio Pequeno Príncipe,Joinville,sc,M,453,2018-05-25,Ativa
-ESC0260,Colégio Santa Clara,Caxias do Sul,RS,G,1290,2020-12-28,ativa
-ESC0261,Instituto Nossa Senhora,Goiânia,go,M,732,2017-10-13,ATIVA
-ESC0262,Centro Educacional Novo Saber,Niterói,rj,M,569,2016-02-08,ativa
-ESC0263,Escola Santa Clara,Uberlândia,MG,M,514,2023-08-30,ativa
-ESC0264,Colégio Cecília Meireles,Florianópolis,SC,M,481,2018-11-06, ATIVA 
-ESC0265,Centro Educacional Santa Clara,Santo André,sp,M,477,2015-07-03,ATIVA
-ESC0266,Escola Dom Bosco,Sorocaba,SP,G,1256,2016-10-17,ATIVA
+ESC0257,Centro Educacional Educar,Campinas,SP,G,919,2018-02-22,Ativa
+ESC0258,Escola Integração,Petrópolis,rj,P,213,2023-02-26,Inativa
+ESC0259,Colégio Pequeno Príncipe,Joinville,sc,M,453,2018-05-25, ATIVA 
+ESC0260,Colégio Santa Clara,Caxias do Sul,RS,G,1290,2020-12-28,Ativa
+ESC0261,Instituto Nossa Senhora,Goiânia,go,M,732,2017-10-13,Ativa
+ESC0262,Centro Educacional Novo Saber,Niterói,rj,M,569,2016-02-08,ATIVA
+ESC0263,Escola Santa Clara,Uberlândia,MG,M,514,2023-08-30,ATIVA
+ESC0264,Colégio Cecília Meireles,Florianópolis,SC,M,481,2018-11-06,ativa
+ESC0265,Centro Educacional Santa Clara,Santo André,sp,M,477,2015-07-03, ATIVA 
+ESC0266,Escola Dom Bosco,Sorocaba,SP,G,1256,2016-10-17,ativa
 ESC0267,Escola Anísio Teixeira,Juiz de Fora,MG,M,412,2019-06-09,ativa
-ESC0268,Centro Educacional São José,Porto Alegre,RS,P,244,2023-06-09,ATIVA
-ESC0269,Escola Caminho do Saber,Caruaru,PE,M,709,2016-04-11, ATIVA 
-ESC0270,Centro Educacional Aprender Mais,Sobral,CE,M,529,2018-11-26,ativa
-ESC0271,Instituto Aprender Mais,Juiz de Fora,mg,P,191,2016-07-02,ativa
-ESC0272,Escola Bom Jesus,Ribeirão Preto,SP,P,276,2016-07-18,ativa
-ESC0273,Escola Nossa Senhora,Belo Horizonte,MG,M,479,2016-07-28,ativa
-ESC0274,Colégio São Francisco,Fortaleza,CE,G,1138,2019-04-22, ATIVA 
-ESC0275,Centro Educacional Santa Clara,Uberlândia,MG,M,485,2021-05-04,ATIVA
-ESC0276,Instituto Anísio Teixeira,Feira de Santana,BA,M,375,2023-08-31,Ativa
-ESC0277,Colégio Santa Clara,Maringá,PR,P,242,2019-10-08,ATIVA
-ESC0278,Colégio Santa Clara,Sobral,CE,M,690,2024-02-28, ATIVA 
-ESC0279,Instituto Aprender Mais,Sobral,CE,P,173,2016-07-24,Ativa
-ESC0280,Instituto Aprender Mais,Recife,PE,G,963,2022-11-23, ATIVA 
-ESC0281,Colégio Paulo Freire,Londrina,PR,G,1186,2018-02-09, INATIVA 
-ESC0282,Instituto Dom Bosco,Ribeirão Preto,SP,M,780,2021-06-23,ATIVA
-ESC0283,Colégio Arco-Íris,Caxias do Sul,RS,M,433,2024-11-02,Ativa
+ESC0268,Centro Educacional São José,Porto Alegre,RS,P,244,2023-06-09,Ativa
+ESC0269,Escola Caminho do Saber,Caruaru,PE,M,709,2016-04-11,ATIVA
+ESC0270,Centro Educacional Aprender Mais,Sobral,CE,M,529,2018-11-26,ATIVA
+ESC0271,Instituto Aprender Mais,Juiz de Fora,mg,P,191,2016-07-02,ATIVA
+ESC0272,Escola Bom Jesus,Ribeirão Preto,SP,P,276,2016-07-18,Ativa
+ESC0273,Escola Nossa Senhora,Belo Horizonte,MG,M,479,2016-07-28, ATIVA 
+ESC0274,Colégio São Francisco,Fortaleza,CE,G,1138,2019-04-22,ATIVA
+ESC0275,Centro Educacional Santa Clara,Uberlândia,MG,M,485,2021-05-04, ATIVA 
+ESC0276,Instituto Anísio Teixeira,Feira de Santana,BA,M,375,2023-08-31, ATIVA 
+ESC0277,Colégio Santa Clara,Maringá,PR,P,242,2019-10-08,ativa
+ESC0278,Colégio Santa Clara,Sobral,CE,M,690,2024-02-28,ativa
+ESC0279,Instituto Aprender Mais,Sobral,CE,P,173,2016-07-24,ativa
+ESC0280,Instituto Aprender Mais,Recife,PE,G,963,2022-11-23,ativa
+ESC0281,Colégio Paulo Freire,Londrina,PR,G,1186,2018-02-09,ATIVA
+ESC0282,Instituto Dom Bosco,Ribeirão Preto,SP,M,780,2021-06-23,Ativa
+ESC0283,Colégio Arco-Íris,Caxias do Sul,RS,M,433,2024-11-02,ATIVA
 ESC0284,Centro Educacional Sol Nascente,Brasília,DF,G,1296,2023-12-04,Ativa
-ESC0285,Instituto Novo Saber,Santo André,SP,M,452,2021-06-25, ATIVA 
+ESC0285,Instituto Novo Saber,Santo André,SP,M,452,2021-06-25,Ativa
 ESC0286,Colégio Cecília Meireles,Fortaleza,CE,G,1021,2015-01-03, ATIVA 
 ESC0287,Instituto Monteiro Lobato,Juiz de Fora,MG,M,825,2015-12-04,Ativa
-ESC0288,Instituto Dom Bosco,Anápolis,GO,P,292,2022-11-22,Ativa
-ESC0289,Centro Educacional São José,São Paulo,SP,P,184,2024-02-29,ATIVA
-ESC0290,Escola Arco-Íris,Fortaleza,CE,M,699,2016-02-24, ATIVA 
-ESC0291,Escola Sol Nascente,Petrópolis,rj,M,362,2020-12-12,ATIVA
-ESC0292,Escola Sol Nascente,Porto Alegre,RS,M,302,2021-11-28,Ativa
-ESC0293,Centro Educacional Caminho do Saber,Sobral,CE,M,880,2016-07-26,ATIVA
-ESC0294,Instituto São José,Caxias do Sul,RS,P,271,2021-10-21,ATIVA
-ESC0295,Escola São Francisco,Feira de Santana,ba,M,401,2020-08-08, ATIVA 
-ESC0296,Centro Educacional Educar,Ribeirão Preto,SP,M,406,2022-08-29,INATIVA
+ESC0288,Instituto Dom Bosco,Anápolis,GO,P,292,2022-11-22,Inativa
+ESC0289,Centro Educacional São José,São Paulo,SP,P,184,2024-02-29, ATIVA 
+ESC0290,Escola Arco-Íris,Fortaleza,CE,M,699,2016-02-24,ativa
+ESC0291,Escola Sol Nascente,Petrópolis,rj,M,362,2020-12-12,ativa
+ESC0292,Escola Sol Nascente,Porto Alegre,RS,M,302,2021-11-28, ATIVA 
+ESC0293,Centro Educacional Caminho do Saber,Sobral,CE,M,880,2016-07-26, ATIVA 
+ESC0294,Instituto São José,Caxias do Sul,RS,P,271,2021-10-21,ativa
+ESC0295,Escola São Francisco,Feira de Santana,ba,M,401,2020-08-08,ATIVA
+ESC0296,Centro Educacional Educar,Ribeirão Preto,SP,M,406,2022-08-29,ativa
 ESC0297,Escola Santa Maria,Belo Horizonte,MG,M,535,2019-06-19,Ativa
-ESC0298,Centro Educacional Monteiro Lobato,Porto Alegre,RS,M,493,2018-06-23,Ativa
-ESC0299,Colégio Primavera,Anápolis,GO,M,331,2024-06-29,Ativa
-ESC0300,Escola Cecília Meireles,São Paulo,SP,M,551,2022-11-13,INATIVA
+ESC0298,Centro Educacional Monteiro Lobato,Porto Alegre,RS,M,493,2018-06-23,ATIVA
+ESC0299,Colégio Primavera,Anápolis,GO,M,331,2024-06-29, ATIVA 
+ESC0300,Escola Cecília Meireles,São Paulo,SP,M,551,2022-11-13,Ativa

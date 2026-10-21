@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: int_pagamentos_classificados
+    description: Parcelas com status (pago em dia, pago com atraso, vencido, a vencer) e dias de atraso na data de referência.
+    columns:
+      - name: id_parcela
+        data_tests: [unique, not_null]
+      - name: status_parcela
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [pago_em_dia, pago_com_atraso, vencido, a_vencer]
+      - name: dias_atraso
+        data_tests:
+          - dbt_utils.expression_is_true:
+              arguments:
+                expression: ">= 0"
+
+  - name: int_contratos_renovacao
+    description: Indicadores de contrato novo e de renovação para o ano letivo seguinte.
+    columns:
+      - name: id_contrato
+        data_tests: [unique, not_null]
+      - name: eh_contrato_novo
+        description: Nulo no primeiro ano da base, quando não há histórico para comparar.
+      - name: foi_renovado
+        description: Nulo para contratos do ano letivo corrente.
+
+unit_tests:
+  - name: classifica_status_e_atraso_das_parcelas
+    description: Cobre os quatro status possíveis e o cálculo de dias de atraso.
+    model: int_pagamentos_classificados
+    overrides:
+      vars:
+        data_referencia: "2026-10-20"
+    given:
+      - input: ref('stg_pagamentos')
+        rows:
+          - {id_parcela: P1, id_contrato: C1, num_parcela: 1, dt_vencimento: "2026-09-10", dt_pagamento: "2026-09-08", valor_parcela: 100.00}
+          - {id_parcela: P2, id_contrato: C1, num_parcela: 2, dt_vencimento: "2026-09-10", dt_pagamento: "2026-09-25", valor_parcela: 100.00}
+          - {id_parcela: P3, id_contrato: C1, num_parcela: 3, dt_vencimento: "2026-09-10", dt_pagamento: null, valor_parcela: 100.00}
+          - {id_parcela: P4, id_contrato: C1, num_parcela: 4, dt_vencimento: "2026-11-10", dt_pagamento: null, valor_parcela: 100.00}
+    expect:
+      rows:
+        - {id_parcela: P1, status_parcela: pago_em_dia, dias_atraso: 0}
+        - {id_parcela: P2, status_parcela: pago_com_atraso, dias_atraso: 15}
+        - {id_parcela: P3, status_parcela: vencido, dias_atraso: 40}
+        - {id_parcela: P4, status_parcela: a_vencer, dias_atraso: 0}
