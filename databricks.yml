@@ -1,0 +1,52 @@
+# Databricks Asset Bundle: define, como código, o job que roda o projeto dbt.
+# O orquestrador decide quando e em que ordem rodar; o dbt decide o que transformar.
+#
+# Uso (com a Databricks CLI configurada):
+#   databricks bundle deploy --var="warehouse_id=<id do SQL warehouse>"
+#   databricks bundle run educacao_analytics_diario
+
+bundle:
+  name: educacao_analytics
+
+variables:
+  warehouse_id:
+    description: ID do SQL warehouse que executa o SQL gerado pelo dbt.
+  catalog:
+    default: workspace
+  schema:
+    default: educacao
+
+resources:
+  jobs:
+    educacao_analytics_diario:
+      name: educacao_analytics_diario
+      schedule:
+        quartz_cron_expression: "0 0 6 * * ?"
+        timezone_id: America/Sao_Paulo
+      email_notifications:
+        on_failure: []
+      tasks:
+        - task_key: dbt_build
+          dbt_task:
+            # Arquivos do projeto sincronizados pelo bundle para o workspace.
+            source: WORKSPACE
+            project_directory: ${workspace.file_path}
+            commands:
+              - dbt deps
+              # build roda seeds, snapshots, models e testes na ordem do DAG.
+              - dbt build
+            warehouse_id: ${var.warehouse_id}
+            catalog: ${var.catalog}
+            schema: ${var.schema}
+          environment_key: dbt_env
+      environments:
+        - environment_key: dbt_env
+          spec:
+            client: "2"
+            dependencies:
+              - dbt-databricks>=1.10,<2.0
+
+targets:
+  dev:
+    mode: development
+    default: true

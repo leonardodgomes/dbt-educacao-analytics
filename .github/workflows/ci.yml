@@ -1,0 +1,36 @@
+name: CI dbt
+
+# Roda em todo pull request e em push na main.
+# Valida que o projeto compila: Jinja, refs, YAML, testes e contratos declarados.
+# Não precisa de conexão com o Databricks (dbt parse não acessa o warehouse).
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    env:
+      DATABRICKS_HOST: ci.cloud.databricks.com
+      DATABRICKS_HTTP_PATH: /sql/1.0/warehouses/ci
+      DATABRICKS_TOKEN: ci
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dbt
+        run: pip install -r requirements.txt
+
+      - name: Preparar profile
+        run: cp profiles.example.yml profiles.yml
+
+      - name: dbt deps
+        run: dbt deps --profiles-dir .
+
+      - name: dbt parse
+        run: dbt parse --profiles-dir .
