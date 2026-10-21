@@ -1,0 +1,27 @@
+version: 2
+
+seeds:
+  - name: raw_contratos
+    description: Contratos como chegam do sistema comercial. Valor por aluno vem como texto em formato brasileiro.
+    config:
+      column_types:
+        valor_por_aluno: string
+        status_contrato: string
+
+  - name: raw_eventos_plataforma
+    description: Eventos de uso da plataforma digital. A carga pode trazer o mesmo evento mais de uma vez.
+    config:
+      column_types:
+        ts_evento: string
+        carregado_em: string
+
+  - name: raw_pagamentos
+    config:
+      column_types:
+        valor_parcela: decimal(14,2)
+
+  - name: uf_regiao
+    description: Tabela de referência das 27 UFs e suas regiões.
+    columns:
+      - name: uf
+        data_tests: [unique, not_null]

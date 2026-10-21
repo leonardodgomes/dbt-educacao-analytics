@@ -1,0 +1,25 @@
+# Copie para ~/.dbt/profiles.yml (ou para a raiz do projeto como profiles.yml, que está no .gitignore).
+# Os valores vêm de variáveis de ambiente para nenhum segredo ficar no repositório.
+#
+#   DATABRICKS_HOST       ex.: dbc-xxxxxxxx-xxxx.cloud.databricks.com (sem https://)
+#   DATABRICKS_HTTP_PATH  ex.: /sql/1.0/warehouses/xxxxxxxxxxxxxxxx
+#   DATABRICKS_TOKEN      token pessoal de acesso
+educacao_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      catalog: workspace
+      schema: dbt_dev
+      host: "{{ env_var('DATABRICKS_HOST') }}"
+      http_path: "{{ env_var('DATABRICKS_HTTP_PATH') }}"
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      threads: 4
+    prod:
+      type: databricks
+      catalog: workspace
+      schema: educacao
+      host: "{{ env_var('DATABRICKS_HOST') }}"
+      http_path: "{{ env_var('DATABRICKS_HTTP_PATH') }}"
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      threads: 4
